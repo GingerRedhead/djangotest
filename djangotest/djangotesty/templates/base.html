@@ -1,0 +1,21 @@
+   <!DOCTYPE html>
+   <html lang="ru">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- Bootstrap CSS CDN Link -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <title>{% block title %}Мой сайт на Django{% endblock %}</title>
+       {% block head %}{% endblock %}
+   </head>
+   <body>
+       {% block content %}{% endblock %}
+
+       <!-- Опциональный JavaScript; выберите один из двух! -->
+
+       <!-- Вариант 1: jQuery и Bootstrap Bundle (включает Popper) -->
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+   </body>
+   </html>

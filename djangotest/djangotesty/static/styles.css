@@ -1,0 +1,8 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-font {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block title %}Заголовок страницы 2{% endblock %}
+
+{% block content %}
+    <h1>Это моя вторая страница</h1>
+    <!-- Содержимое страницы 2... -->
+{% endblock %}
+from django.shortcuts import render
+
+# ... Ваши другие представления
+
+@login_required
+def page_two(request):
+    return render(request, 'page_two.html')
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>

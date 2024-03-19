@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block title %}Заголовок страницы 1{% endblock %}
+
+{% block content %}
+    <h1>Это моя первая страница</h1>
+    <!-- Содержимое страницы 1... -->
+{% endblock %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page One Title</title>
+</head>
+<body>
+    <div>
+        {{ flatpage.content }}
+    </div>
+    <hr>
+    <div>
+        {{ flatpage.content }}
+    </div>
+</body>
+</html>
